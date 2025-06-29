@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ATM Interface</title>
+  <link rel="stylesheet" href="./assests/css/Atm.css"/>
+</head>
+<body>
+  <div class="atm-box">
+    <h2>💳 ATM Machine</h2>
+    
+    <input type="text" id="Inputvalue" placeholder="Enter your Amount" />
+
+    <div class="buttons">
+      <button id="addAmount">Deposit</button>
+      <button id="Withdraw">Withdraw</button>
+      <button id="showAmount">Show Balance</button>
+      <!-- ✅ New button for history -->
+      <button id="showHistoryBtn">Show History</button>
+    </div>
+
+    <div class="balance-display">
+      <strong>Balance:</strong> <span id="showBalance">0</span> PKR
+    </div>
+
+    <!-- ✅ History section -->
+    <div class="history-section">
+      <h3>🧾 Transaction History</h3>
+      <div id="history">
+        <p>No transactions yet.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assests/js/script.js"></script>
+</body>
+</html>
