@@ -88,7 +88,7 @@ let deleteUsers =async ()=>{
 
     await signOut(auth);
     console.log("Sign-out successfully.");
-    window.location.replace("signup.html")
+    window.location.replace("index.html")
   
   } catch (error) {
     console.log(error);

@@ -11,7 +11,7 @@ let loginUser =async()=>{
 
       await signInWithEmailAndPassword(auth, email, password);
       console.log("user successfully signIn");
-      window.location.replace("index.html")
+      window.location.replace("password.html")
 
       
     
