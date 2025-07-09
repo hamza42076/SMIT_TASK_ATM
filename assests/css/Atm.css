@@ -76,3 +76,8 @@ button:hover {
 .history-section li {
   margin-bottom: 5px;
 }
+#logout{
+  position: fixed;
+  right: 0;
+  top: 0;
+}
